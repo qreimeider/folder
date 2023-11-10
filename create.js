@@ -1,4 +1,5 @@
 const fs = require("fs");
+const fsPromises = require("fs/promises");
 
 function createPath(path = "", cb) {
 	if (!path.length) return false;
@@ -13,6 +14,18 @@ function createPath(path = "", cb) {
 	);
 }
 
+async function createPathAsync(path) {
+	try {
+		await fsPromises.mkdir(path, {
+			recursive: true,
+		});
+		return [true, "Folder created"];
+	} catch (err) {
+		return [false, "Folder not created"];
+	}
+}
+
 module.exports = {
 	createPath,
+	createPathAsync,
 };
