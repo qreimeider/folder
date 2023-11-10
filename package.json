@@ -1,19 +1,16 @@
 {
-  "name": "@alfiras/folder",
-  "version": "1.0.0",
-  "description": "Utils about folder",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qreimeider/folder.git"
-  },
-  "author": "Alfiras",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/qreimeider/folder/issues"
-  },
-  "homepage": "https://github.com/qreimeider/folder#readme"
+	"name": "@alfiras/folder",
+	"version": "1.0.1",
+	"description": "Utils about folder",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/qreimeider/folder.git"
+	},
+	"author": "Alfiras",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/qreimeider/folder/issues"
+	},
+	"homepage": "https://github.com/qreimeider/folder#readme"
 }
